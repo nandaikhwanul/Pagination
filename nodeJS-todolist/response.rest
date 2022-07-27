@@ -1,0 +1,29 @@
+GET http://localhost:4001
+
+###
+POST http://localhost:4001
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name" : "Khontol"
+}
+
+###
+PUT http://localhost:4001
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 0,
+    "name" : "Kontol"
+}
+
+###
+DELETE http://localhost:4001
+Content-Type: application/json
+Accept: application/json
+
+{
+    "id" : 0
+}
