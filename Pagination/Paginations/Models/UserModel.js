@@ -1,5 +1,5 @@
 import sequelize from "sequelize";
-import db from "../Config/database";
+import db from "../Config/database.js";
 
 const {DataTypes} = sequelize;
 
@@ -12,6 +12,6 @@ const Page = db.define('pagination', {
 });
 export default Page;
 
-(async()=>{
-    await Users.sync();
-})();
+// (async()=>{
+//     await Page.sync();
+// })();
