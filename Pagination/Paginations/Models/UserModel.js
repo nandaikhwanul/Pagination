@@ -8,7 +8,7 @@ const Page = db.define('pagination', {
     email: DataTypes.STRING,
     gender: DataTypes.STRING
 },{
-    freezeTableName:true
+    freezeTableName: true
 });
 export default Page;
 

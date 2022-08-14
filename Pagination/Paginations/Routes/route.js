@@ -1,4 +1,4 @@
-import express from "express"
+import express from "express";
 import { getUsers } from "../Controller/User.js";
 
 const router = express.Router();
